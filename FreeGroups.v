@@ -1,6 +1,8 @@
 Require Export List.
 Require Export Setoid.
 
+Unset Standard Proposition Elimination Names.
+
 (* 
    This is a construction of the free group on a set of generators,
    as the set of reduced words where a letter is a generator or its
